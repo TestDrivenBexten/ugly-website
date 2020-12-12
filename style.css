@@ -11,6 +11,10 @@
     z-index: -2;
 }
 
+.centered {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -45,9 +49,9 @@ span {
 
 @keyframes branding {
     from {color: pink;}
-    to {color: lightgreen;}
+    to {color: yellow;}
 }
 @keyframes example {
     from {background: pink;}
-    to {background: lightgreen;}
+    to {background: yellow;}
 }
