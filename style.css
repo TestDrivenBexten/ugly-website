@@ -1,0 +1,27 @@
+.content-area {
+    background-color: red;
+    font-size: smaller;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+
+p:hover {
+    color: red;
+}
+
+p::selection {
+    color: red;
+    background: yellow;
+}
+
+img {
+    width: 150px;
+    background: pink;
+    border: 1px solid black;
+}
