@@ -18,4 +18,6 @@ p::selection {
 
 img {
     width: 150px;
+    background: pink;
+    border: 1px solid black;
 }
