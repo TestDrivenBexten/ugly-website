@@ -1,6 +1,14 @@
 .content-area {
+    position: relative;
     background-color: red;
     font-size: smaller;
+    z-index: -1;
+}
+
+.name-area {
+    background-color: lightblue;
+    margin-bottom: -1.5em;
+    z-index: -2;
 }
 
 h1 {
