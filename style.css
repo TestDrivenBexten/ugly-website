@@ -32,4 +32,22 @@ img {
     width: 150px;
     background: pink;
     border: 1px solid black;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+span {
+    animation-name: branding;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes branding {
+    from {color: pink;}
+    to {color: lightgreen;}
+}
+@keyframes example {
+    from {background: pink;}
+    to {background: lightgreen;}
 }
